@@ -97,7 +97,8 @@ window.onload = function() {
     var loadIncrement = 3;
 
     // if querying a database, use an API call here to grab the next 'segment' of records
-    // use a framework to update the DOM as opposed to adding elements in JavaScript, as shown here 
+    // use a framework to update the DOM as opposed to adding elements in JavaScript, as shown here
+    // display a loading wheel while waiting for request 
 
     // for loop iterating across three quotes, starting at the nextItem index
     for (var i = nextItem; i < nextItem + loadIncrement; i++) {
