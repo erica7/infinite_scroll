@@ -1,0 +1,14 @@
+body {
+  color: red;
+  font-family: "Gill Sans";
+}
+
+#infinite-list {
+  width: 600px;
+  height: 300px;
+  overflow: auto;
+
+  margin: auto;
+  padding: 20px;
+  border: 7px solid #777;
+}
